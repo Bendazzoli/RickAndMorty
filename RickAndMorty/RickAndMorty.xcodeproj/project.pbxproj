@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4843B6652AEACF9D0002733E /* GraphQL in Frameworks */ = {isa = PBXBuildFile; productRef = 4843B6642AEACF9D0002733E /* GraphQL */; };
+		4843B6672AEACF9D0002733E /* GraphQLAST in Frameworks */ = {isa = PBXBuildFile; productRef = 4843B6662AEACF9D0002733E /* GraphQLAST */; };
+		4843B6692AEACF9D0002733E /* GraphQLWebSocket in Frameworks */ = {isa = PBXBuildFile; productRef = 4843B6682AEACF9D0002733E /* GraphQLWebSocket */; };
+		4843B66B2AEACF9D0002733E /* SwiftGraphQL in Frameworks */ = {isa = PBXBuildFile; productRef = 4843B66A2AEACF9D0002733E /* SwiftGraphQL */; };
+		4843B66D2AEACF9D0002733E /* SwiftGraphQLClient in Frameworks */ = {isa = PBXBuildFile; productRef = 4843B66C2AEACF9D0002733E /* SwiftGraphQLClient */; };
+		4843B66F2AEACF9D0002733E /* SwiftGraphQLCodegen in Frameworks */ = {isa = PBXBuildFile; productRef = 4843B66E2AEACF9D0002733E /* SwiftGraphQLCodegen */; };
+		4843B6712AEACF9D0002733E /* swift-graphql in Frameworks */ = {isa = PBXBuildFile; productRef = 4843B6702AEACF9D0002733E /* swift-graphql */; };
 		48855FD72A95660500EEB73F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48855FD62A95660500EEB73F /* AppDelegate.swift */; };
 		48855FD92A95660500EEB73F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48855FD82A95660500EEB73F /* SceneDelegate.swift */; };
 		48855FDB2A95660500EEB73F /* RMTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48855FDA2A95660500EEB73F /* RMTabBarViewController.swift */; };
@@ -30,6 +37,11 @@
 		48EF55182A9A754C00D35FE5 /* RMInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EF55172A9A754C00D35FE5 /* RMInfo.swift */; };
 		48EF551A2A9A757800D35FE5 /* RMGetAllLocationsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EF55192A9A757800D35FE5 /* RMGetAllLocationsResponse.swift */; };
 		48EF551C2A9A758900D35FE5 /* RMGetAllEpisodesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EF551B2A9A758900D35FE5 /* RMGetAllEpisodesResponse.swift */; };
+		48F67E2F2AEBFB4300125DB1 /* RMGraphQLService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F67E2E2AEBFB4300125DB1 /* RMGraphQLService.swift */; };
+		48F67E342AEC254E00125DB1 /* RMInfoQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F67E332AEC254E00125DB1 /* RMInfoQuery.swift */; };
+		48F67E362AEC281400125DB1 /* RMLocationQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F67E352AEC281400125DB1 /* RMLocationQuery.swift */; };
+		48F67E382AEC2AA200125DB1 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F67E372AEC2AA200125DB1 /* API.swift */; };
+		48F67E3A2AEC353000125DB1 /* RMLocationsQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F67E392AEC353000125DB1 /* RMLocationsQuery.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +70,11 @@
 		48EF55172A9A754C00D35FE5 /* RMInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMInfo.swift; sourceTree = "<group>"; };
 		48EF55192A9A757800D35FE5 /* RMGetAllLocationsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGetAllLocationsResponse.swift; sourceTree = "<group>"; };
 		48EF551B2A9A758900D35FE5 /* RMGetAllEpisodesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGetAllEpisodesResponse.swift; sourceTree = "<group>"; };
+		48F67E2E2AEBFB4300125DB1 /* RMGraphQLService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGraphQLService.swift; sourceTree = "<group>"; };
+		48F67E332AEC254E00125DB1 /* RMInfoQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMInfoQuery.swift; sourceTree = "<group>"; };
+		48F67E352AEC281400125DB1 /* RMLocationQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMLocationQuery.swift; sourceTree = "<group>"; };
+		48F67E372AEC2AA200125DB1 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		48F67E392AEC353000125DB1 /* RMLocationsQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMLocationsQuery.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +82,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4843B66F2AEACF9D0002733E /* SwiftGraphQLCodegen in Frameworks */,
+				4843B6712AEACF9D0002733E /* swift-graphql in Frameworks */,
+				4843B66B2AEACF9D0002733E /* SwiftGraphQL in Frameworks */,
+				4843B66D2AEACF9D0002733E /* SwiftGraphQLClient in Frameworks */,
+				4843B6652AEACF9D0002733E /* GraphQL in Frameworks */,
+				4843B6692AEACF9D0002733E /* GraphQLWebSocket in Frameworks */,
+				4843B6672AEACF9D0002733E /* GraphQLAST in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +114,7 @@
 		48855FD52A95660500EEB73F /* RickAndMorty */ = {
 			isa = PBXGroup;
 			children = (
+				48F67E2D2AEBFB0B00125DB1 /* SwiftGraphQL */,
 				48855FF02A9568AD00EEB73F /* Resources */,
 				48855FEF2A95689E00EEB73F /* APIClient */,
 				48855FEE2A95688600EEB73F /* Managers */,
@@ -176,6 +201,7 @@
 		48EF55132A9A734200D35FE5 /* DataTypes */ = {
 			isa = PBXGroup;
 			children = (
+				48F67E312AEC252300125DB1 /* SwiftGraphQL */,
 				48855FF32A956A2000EEB73F /* RMCharacter.swift */,
 				48855FF52A956A2F00EEB73F /* RMEpisode.swift */,
 				48855FF12A956A0400EEB73F /* RMLocation.swift */,
@@ -198,6 +224,33 @@
 			path = APIResponseTypes;
 			sourceTree = "<group>";
 		};
+		48F67E2D2AEBFB0B00125DB1 /* SwiftGraphQL */ = {
+			isa = PBXGroup;
+			children = (
+				48F67E2E2AEBFB4300125DB1 /* RMGraphQLService.swift */,
+			);
+			path = SwiftGraphQL;
+			sourceTree = "<group>";
+		};
+		48F67E312AEC252300125DB1 /* SwiftGraphQL */ = {
+			isa = PBXGroup;
+			children = (
+				48F67E322AEC253100125DB1 /* Queries */,
+				48F67E372AEC2AA200125DB1 /* API.swift */,
+			);
+			path = SwiftGraphQL;
+			sourceTree = "<group>";
+		};
+		48F67E322AEC253100125DB1 /* Queries */ = {
+			isa = PBXGroup;
+			children = (
+				48F67E332AEC254E00125DB1 /* RMInfoQuery.swift */,
+				48F67E352AEC281400125DB1 /* RMLocationQuery.swift */,
+				48F67E392AEC353000125DB1 /* RMLocationsQuery.swift */,
+			);
+			path = Queries;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -214,6 +267,15 @@
 			dependencies = (
 			);
 			name = RickAndMorty;
+			packageProductDependencies = (
+				4843B6642AEACF9D0002733E /* GraphQL */,
+				4843B6662AEACF9D0002733E /* GraphQLAST */,
+				4843B6682AEACF9D0002733E /* GraphQLWebSocket */,
+				4843B66A2AEACF9D0002733E /* SwiftGraphQL */,
+				4843B66C2AEACF9D0002733E /* SwiftGraphQLClient */,
+				4843B66E2AEACF9D0002733E /* SwiftGraphQLCodegen */,
+				4843B6702AEACF9D0002733E /* swift-graphql */,
+			);
 			productName = RickAndMorty;
 			productReference = 48855FD32A95660500EEB73F /* RickAndMorty.app */;
 			productType = "com.apple.product-type.application";
@@ -242,6 +304,9 @@
 				Base,
 			);
 			mainGroup = 48855FCA2A95660500EEB73F;
+			packageReferences = (
+				4843B6632AEACF9D0002733E /* XCRemoteSwiftPackageReference "swift-graphql" */,
+			);
 			productRefGroup = 48855FD42A95660500EEB73F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -268,6 +333,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48F67E3A2AEC353000125DB1 /* RMLocationsQuery.swift in Sources */,
 				488560092A958B8300EEB73F /* RMOrigin.swift in Sources */,
 				4885600B2A958C5A00EEB73F /* RMSingleLocation.swift in Sources */,
 				48EF55162A9A738500D35FE5 /* RMGetAllCharactersResponse.swift in Sources */,
@@ -280,12 +346,16 @@
 				48EF551C2A9A758900D35FE5 /* RMGetAllEpisodesResponse.swift in Sources */,
 				48EF551A2A9A757800D35FE5 /* RMGetAllLocationsResponse.swift in Sources */,
 				48855FFD2A956BBE00EEB73F /* RMEpisodeViewController.swift in Sources */,
+				48F67E2F2AEBFB4300125DB1 /* RMGraphQLService.swift in Sources */,
 				48855FD72A95660500EEB73F /* AppDelegate.swift in Sources */,
+				48F67E362AEC281400125DB1 /* RMLocationQuery.swift in Sources */,
 				48855FD92A95660500EEB73F /* SceneDelegate.swift in Sources */,
 				48855FFF2A956BE100EEB73F /* RMSettingsViewController.swift in Sources */,
 				488560012A95857300EEB73F /* RMSerivce.swift in Sources */,
 				48855FF22A956A0400EEB73F /* RMLocation.swift in Sources */,
+				48F67E382AEC2AA200125DB1 /* API.swift in Sources */,
 				488560072A95863300EEB73F /* RMEndpoint.swift in Sources */,
+				48F67E342AEC254E00125DB1 /* RMInfoQuery.swift in Sources */,
 				48855FF42A956A2000EEB73F /* RMCharacter.swift in Sources */,
 				488560032A95858200EEB73F /* RMRequest.swift in Sources */,
 				48855FF92A956B7C00EEB73F /* RMCharacterViewController.swift in Sources */,
@@ -496,6 +566,55 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4843B6632AEACF9D0002733E /* XCRemoteSwiftPackageReference "swift-graphql" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maticzav/swift-graphql";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.10;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4843B6642AEACF9D0002733E /* GraphQL */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4843B6632AEACF9D0002733E /* XCRemoteSwiftPackageReference "swift-graphql" */;
+			productName = GraphQL;
+		};
+		4843B6662AEACF9D0002733E /* GraphQLAST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4843B6632AEACF9D0002733E /* XCRemoteSwiftPackageReference "swift-graphql" */;
+			productName = GraphQLAST;
+		};
+		4843B6682AEACF9D0002733E /* GraphQLWebSocket */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4843B6632AEACF9D0002733E /* XCRemoteSwiftPackageReference "swift-graphql" */;
+			productName = GraphQLWebSocket;
+		};
+		4843B66A2AEACF9D0002733E /* SwiftGraphQL */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4843B6632AEACF9D0002733E /* XCRemoteSwiftPackageReference "swift-graphql" */;
+			productName = SwiftGraphQL;
+		};
+		4843B66C2AEACF9D0002733E /* SwiftGraphQLClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4843B6632AEACF9D0002733E /* XCRemoteSwiftPackageReference "swift-graphql" */;
+			productName = SwiftGraphQLClient;
+		};
+		4843B66E2AEACF9D0002733E /* SwiftGraphQLCodegen */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4843B6632AEACF9D0002733E /* XCRemoteSwiftPackageReference "swift-graphql" */;
+			productName = SwiftGraphQLCodegen;
+		};
+		4843B6702AEACF9D0002733E /* swift-graphql */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4843B6632AEACF9D0002733E /* XCRemoteSwiftPackageReference "swift-graphql" */;
+			productName = "swift-graphql";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 48855FCB2A95660500EEB73F /* Project object */;
 }

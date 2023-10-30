@@ -6,8 +6,14 @@
 //
 
 import Foundation
+import SwiftGraphQL
 
-struct RMGetAllLocationsResponse: Codable {
-    let info: RMInfo
-    let results: [RMLocation]
+struct RMGetAllLocationsResponse: Identifiable, Equatable {
+    static func == (lhs: RMGetAllLocationsResponse, rhs: RMGetAllLocationsResponse) -> Bool {
+        lhs.id == rhs.id
+    }
+    
+    let id: String
+    let info: RMInfo?
+    let results: [RMLocation?]?
 }

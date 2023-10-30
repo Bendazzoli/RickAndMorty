@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct RMGetAllCharactersResponse: Codable {
-    let info: RMInfo
-    let results: [RMCharacter]
-}
+//struct RMGetAllCharactersResponse: Codable {
+//    let info: RMInfo
+//    let results: [RMCharacter]
+//}

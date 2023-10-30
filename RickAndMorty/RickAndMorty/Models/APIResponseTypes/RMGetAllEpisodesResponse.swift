@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct RMGetAllEpisodesResponse: Codable {
-    let info: RMInfo
-    let results: [RMEpisode]
-}
+//struct RMGetAllEpisodesResponse: Codable {
+//    let info: RMInfo
+//    let results: [RMEpisode]
+//}
