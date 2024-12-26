@@ -18,7 +18,6 @@ final class RMLocationViewController: UIViewController {
         RMGraphQLService.shared.execute {
             result in
             print(result)
-            print(result)
         }
         
 //        RMSerivce.shared.execute(.listOfLocationsRequest, expecting: RMGetAllLocationsResponse.self) { result in
